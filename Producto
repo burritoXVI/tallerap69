@@ -1,0 +1,71 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package modelo;
+
+/**
+ *
+ * @author X.V.I
+ */
+public class Producto {
+    
+    private int codigo;
+    private String nombre;
+    private int cantidad;
+    private double valor;
+    private String tipoProducto;
+    
+    
+    
+    public Producto(){
+        
+    }
+    
+    
+    //Getters
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public double getPrecio() {
+        return valor;
+    }
+
+    public String getTipoProducto() {
+        return tipoProducto;
+    }
+
+    //Setters
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public void setPrecio(double valor) {
+        this.valor = valor;
+    }
+
+    public void setTipoProducto(String tipoProducto) {
+        this.tipoProducto = tipoProducto;
+    }
+    
+    
+    
+}
